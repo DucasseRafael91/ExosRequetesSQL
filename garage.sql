@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mar. 25 nov. 2025 à 10:10
+-- Généré le : mar. 25 nov. 2025 à 10:48
 -- Version du serveur : 8.4.7
 -- Version de PHP : 8.3.28
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `g_article` (
   `a_marque` varchar(25) COLLATE utf8mb4_unicode_ci NOT NULL,
   `a_quantite` int NOT NULL,
   PRIMARY KEY (`a_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Déchargement des données de la table `g_article`
@@ -44,7 +44,9 @@ CREATE TABLE IF NOT EXISTS `g_article` (
 INSERT INTO `g_article` (`a_id`, `a_reference`, `a_designation`, `a_marque`, `a_quantite`) VALUES
 (1, '6464646', 'filtre à air', 'VALEO', 10),
 (2, '1234567', 'filtre à particules', 'BOSH', 25),
-(3, '2345671', 'essuie_glaces', 'BOSH', 12);
+(3, '2345671', 'essuie_glaces', 'BOSH', 12),
+(4, '3456712', 'Pneux routes', 'Michelin', 24),
+(5, '4567123', 'bougies d\'allumages ', 'Oscaro', 35);
 
 -- --------------------------------------------------------
 
